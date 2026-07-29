@@ -1,0 +1,74 @@
+{
+  "name": "miconvert-icon-generator",
+  "displayName": "App Icon Generator for iOS, Android, Web & Desktop – MiConvert",
+  "description": "Free app icon generator: create production-ready icons for iOS (AppIcon.appiconset), Android (mipmap), Web (favicon, PWA), Windows (.ico), macOS (.icns) & Unity from a single image",
+  "version": "1.1.0",
+  "publisher": "MiConvert",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/huuhuybn/miconvert-icon-generator"
+  },
+  "homepage": "https://miconvert.com",
+  "bugs": {
+    "url": "https://github.com/huuhuybn/miconvert-icon-generator/issues",
+    "email": "support@miconvert.com"
+  },
+  "qna": "https://miconvert.com/en/contact",
+  "icon": "icons/icon.png",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Other",
+    "Formatters"
+  ],
+  "keywords": [
+    "app icon generator",
+    "favicon generator",
+    "ios icon",
+    "android icon",
+    "pwa icon",
+    "appiconset",
+    "mipmap",
+    "icon generator",
+    "ico",
+    "icns"
+  ],
+  "activationEvents": [],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "miconvert.generateIcons",
+        "title": "%command.generateIcons%"
+      }
+    ],
+    "menus": {
+      "explorer/context": [
+        {
+          "command": "miconvert.generateIcons",
+          "when": "resourceExtname =~ /\\.(png|jpg|jpeg|svg|webp)$/i",
+          "group": "miconvert@1"
+        }
+      ]
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "lint": "eslint src --ext ts"
+  },
+  "dependencies": {
+    "archiver": "^6.0.1",
+    "png-to-ico": "^2.1.8",
+    "sharp": "^0.33.2"
+  },
+  "devDependencies": {
+    "@types/archiver": "^6.0.2",
+    "@types/node": "^20.11.0",
+    "@types/vscode": "^1.80.0",
+    "typescript": "^5.3.3"
+  }
+}
