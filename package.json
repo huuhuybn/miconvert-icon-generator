@@ -2,7 +2,7 @@
   "name": "miconvert-icon-generator",
   "displayName": "App Icon Generator for iOS, Android, Web & Desktop – MiConvert",
   "description": "Free app icon generator: create production-ready icons for iOS (AppIcon.appiconset), Android (mipmap), Web (favicon, PWA), Windows (.ico), macOS (.icns) & Unity from a single image",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "publisher": "MiConvert",
   "license": "MIT",
   "repository": {
@@ -55,10 +55,7 @@
     }
   },
   "scripts": {
-    "vscode:prepublish": "npm run compile",
-    "compile": "tsc -p ./",
-    "watch": "tsc -watch -p ./",
-    "lint": "eslint src --ext ts"
+    "vscode:prepublish": "echo \"no sources in this recovered repo — out/ is the shipped artifact (see RECOVERY.md)\""
   },
   "dependencies": {
     "archiver": "^6.0.1",
