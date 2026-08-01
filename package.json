@@ -9,12 +9,12 @@
     "type": "git",
     "url": "https://github.com/huuhuybn/miconvert-icon-generator"
   },
-  "homepage": "https://miconvert.com",
+  "homepage": "https://miconvert.com?utm_source=vscode&utm_medium=listing&utm_campaign=vscode-icon-generator",
   "bugs": {
     "url": "https://github.com/huuhuybn/miconvert-icon-generator/issues",
     "email": "support@miconvert.com"
   },
-  "qna": "https://miconvert.com/en/contact",
+  "qna": "https://miconvert.com/en/contact?utm_source=vscode&utm_medium=listing&utm_campaign=vscode-icon-generator",
   "icon": "icons/icon.png",
   "engines": {
     "vscode": "^1.80.0"

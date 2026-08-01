@@ -125,14 +125,14 @@ Before generating, the extension validates your source image:
 
 Need more advanced features?
 
-🌐 **[MiConvert.com](https://miconvert.com)** — AI background removal, smart crop, batch processing, and 100+ file conversion tools.
+🌐 **[MiConvert.com](https://miconvert.com?utm_source=vscode&utm_medium=readme&utm_campaign=vscode-icon-generator)** — AI background removal, smart crop, batch processing, and 100+ file conversion tools.
 
 ## 💬 Support & Contact
 
 - 🐛 **Report a bug**: [GitHub Issues](https://github.com/huuhuybn/miconvert-icon-generator/issues)
-- 📧 **Contact us**: [miconvert.com/en/contact](https://miconvert.com/en/contact)
-- 🌐 **Website**: [miconvert.com](https://miconvert.com)
+- 📧 **Contact us**: [miconvert.com/en/contact](https://miconvert.com/en/contact?utm_source=vscode&utm_medium=readme&utm_campaign=vscode-icon-generator)
+- 🌐 **Website**: [miconvert.com](https://miconvert.com?utm_source=vscode&utm_medium=readme&utm_campaign=vscode-icon-generator)
 
 ## 📝 License
 
-MIT © [MiConvert](https://miconvert.com)
+MIT © [MiConvert](https://miconvert.com?utm_source=vscode&utm_medium=readme&utm_campaign=vscode-icon-generator)

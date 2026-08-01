@@ -271,13 +271,13 @@ function activate(context) {
                     await vscode.commands.executeCommand('revealFileInOS', folderUri);
                 }
                 else if (action === `🚀 ${t('action.openAdvanced')}`) {
-                    vscode.env.openExternal(vscode.Uri.parse('https://miconvert.com/icon-generator?utm_source=vscode&utm_medium=extension&utm_campaign=icon-gen'));
+                    vscode.env.openExternal(vscode.Uri.parse('https://miconvert.com/en/png-to-ico?utm_source=vscode&utm_medium=extension&utm_campaign=icon-gen'));
                 }
                 // Soft upsell after every 5th generation
                 if (totalGens > 0 && totalGens % 5 === 0) {
                     const upsellAction = await vscode.window.showInformationMessage(`🎉 ${t('upsell.milestone', totalGens)}`, t('action.openMiConvert'), t('action.dismiss'));
                     if (upsellAction === t('action.openMiConvert')) {
-                        vscode.env.openExternal(vscode.Uri.parse('https://miconvert.com/icon-generator?utm_source=vscode&utm_medium=extension&utm_campaign=milestone'));
+                        vscode.env.openExternal(vscode.Uri.parse('https://miconvert.com/en/png-to-ico?utm_source=vscode&utm_medium=extension&utm_campaign=milestone'));
                     }
                 }
             });
